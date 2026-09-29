@@ -1,6 +1,6 @@
 {
  "version": 1,
- "build": 2,
+ "build": 3,
  "last_updated": "2026-09-29",
  "place": {
   "key": "americas",
@@ -474,7 +474,7 @@
  },
  "competitors": [
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Cemex",
    "site": "https://www.cemex.com/",
    "where": "Mexico",
@@ -506,7 +506,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Échale",
    "site": null,
    "where": "Mexico",
@@ -526,7 +526,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "SEED",
    "site": null,
    "where": "Mexico City",
@@ -550,7 +550,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Cementos Progreso",
    "site": null,
    "where": "Guatemala",
@@ -574,7 +574,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Cementos Argos",
    "site": null,
    "where": "Colombia",
@@ -598,7 +598,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "UNDP with WASP",
    "site": null,
    "where": "Colombia",
@@ -613,7 +613,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Grondplek",
    "site": null,
    "where": "Argentina, Uruguay, Paraguay",
@@ -645,7 +645,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Universidad del Bío-Bío",
    "site": null,
    "where": "Concepción, Chile",
@@ -669,7 +669,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "PUCP",
    "site": null,
    "where": "Lima, Peru",
@@ -689,7 +689,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "InovaHouse3D",
    "site": null,
    "where": "Brazil",
@@ -713,7 +713,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Printek 3D",
    "site": null,
    "where": "Rio Grande do Sul, Brazil",
@@ -733,7 +733,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Cosmos 3D",
    "site": null,
    "where": "Minas Gerais, Brazil",
@@ -748,7 +748,7 @@
    ]
   },
   {
-   "tier": "latam",
+   "group": "latam",
    "name": "Minha Casa Financiada",
    "site": null,
    "where": "São Paulo, Brazil",
@@ -768,7 +768,7 @@
    ]
   },
   {
-   "tier": "canada",
+   "group": "canada",
    "name": "nidus3D",
    "site": null,
    "where": "Ontario and Alberta",
@@ -796,7 +796,7 @@
    ]
   },
   {
-   "tier": "canada",
+   "group": "canada",
    "name": "Twente Additive Manufacturing",
    "site": null,
    "where": "Nelson, British Columbia",
@@ -828,7 +828,7 @@
    ]
   },
   {
-   "tier": "canada",
+   "group": "canada",
    "name": "Habitat for Humanity Windsor-Essex",
    "site": null,
    "where": "Windsor, Ontario",
@@ -843,7 +843,7 @@
    ]
   },
   {
-   "tier": "us",
+   "group": "us",
    "name": "PERI 3D Construction",
    "site": "https://www.peri3dconstruction.com/",
    "where": "United States",
@@ -862,7 +862,7 @@
    ]
   },
   {
-   "tier": "us",
+   "group": "us",
    "name": "Apis Cor",
    "site": null,
    "where": "Melbourne, Florida",
@@ -886,7 +886,7 @@
    ]
   },
   {
-   "tier": "us",
+   "group": "us",
    "name": "Printed Farms",
    "site": null,
    "where": "Florida",
@@ -905,7 +905,7 @@
    ]
   },
   {
-   "tier": "us",
+   "group": "us",
    "name": "Alquist 3D",
    "site": null,
    "where": "Greeley, Colorado",
@@ -929,7 +929,7 @@
    ]
   },
   {
-   "tier": "us",
+   "group": "us",
    "name": "SQ4D",
    "site": null,
    "where": "Long Island, New York",
@@ -944,7 +944,7 @@
    ]
   },
   {
-   "tier": "gone",
+   "group": "gone",
    "name": "Mighty Buildings",
    "site": null,
    "where": "Oakland, California, and Monterrey",
@@ -963,7 +963,7 @@
    ]
   },
   {
-   "tier": "gone",
+   "group": "gone",
    "name": "Black Buffalo 3D",
    "site": null,
    "where": "New Jersey",
@@ -983,7 +983,7 @@
   }
  ],
  "consolidation": "23 printing firms and programs across the Americas besides ICON: cement makers in Mexico, Guatemala and Colombia, start-ups in Argentina, Brazil and Canada, and US printers. 2 are gone or going.",
- "field_tiers": [
+ "field_groups": [
   [
    "latam",
    "Printing in Latin America"
@@ -1338,6 +1338,17 @@
    }
   ],
   "arrivals": [
+   {
+    "name": "United States",
+    "v": 68.3,
+    "note": "-5.5%. From Canada 16.0 million, down 20.9%",
+    "s": {
+     "label": "NTTO via International Inbound Travel Association, 2026",
+     "url": "https://www.inboundtravel.org/news/ntto-december-2025-international-travel-volume",
+     "date": "2026"
+    },
+    "region": "north"
+   },
    {
     "name": "Mexico",
     "v": 47.8,
@@ -1804,7 +1815,7 @@
    "pipeline": "The United States holds <b>703,001</b> rooms in its pipeline. Of the rest drawn here, Canada holds <b>45,429</b> and Mexico <b>33,131</b>.",
    "uc": "<b>43,840</b> rooms are under construction across Latin America, Q2 2026. Mexico has more than <b>17,000</b> of them, per CBRE.",
    "cities": "<b>Toronto</b> leads the cities named in the reports, with 12,170 rooms in 74 projects.",
-   "arrivals": "Mexico received <b>47.8 million</b> international tourists in 2025. Brazil grew fastest of the countries drawn, <b>+37%</b>.",
+   "arrivals": "The United States received <b>68.3 million</b> international visitors in 2025, down 5.5%. Mexico received <b>47.8 million</b>, up 6.1%. Brazil grew fastest, <b>+37%</b>.",
    "adr": "Caribbean luxury hotels averaged <b>$547</b> a night in 2025 to date. Los Cabos averaged <b>$439.30</b> from January to August.",
    "occ": "<b>Vancouver</b> ran at 78.4%. Argentina's November figure, <b>49.5%</b>, is the lowest drawn.",
    "cost": "The median luxury room cost over <b>$1.6 million</b> to develop in the 2026 survey, against over <b>$1,057,000</b> in 2025."
@@ -4451,6 +4462,2782 @@
   ],
   "source": "Natural Earth, 1:110m admin-0 countries (public domain)"
  },
+ "outdoors": {
+  "reports": [
+   {
+    "n": 1,
+    "title": "Global Wellness Economy Monitor 2025",
+    "by": "Global Wellness Institute",
+    "date": "2025-11",
+    "url": "https://globalwellnessinstitute.org/wp-content/uploads/2025/11/2025-GWI-WE-Monitor_DIGITAL-FINAL.pdf",
+    "what": "Wellness tourism worldwide, $893.9 billion in 2024."
+   },
+   {
+    "n": 2,
+    "title": "North American Camping Report 2026",
+    "by": "Kampgrounds of America",
+    "date": "2026-04",
+    "url": "https://www.koapressroom.com/press/2026-camping-hospitality-report/",
+    "what": "More than 52 million households camped in 2025. Glamping was 29% of camping."
+   },
+   {
+    "n": 3,
+    "title": "The US Glamping Industry Enters Its Institutional Era",
+    "by": "MMCG Invest",
+    "date": "2026-03",
+    "url": "https://www.mmcginvest.com/post/the-us-glamping-industry-enters-its-institutional-era",
+    "what": "US glamping near $738 million in 2024. The deals that brought hotel companies and private equity in."
+   },
+   {
+    "n": 4,
+    "title": "The 2026 State of Glamping Report",
+    "by": "RMS",
+    "date": "2026",
+    "url": "https://www.rmscloud.com/rms-resources-the-state-of-glamping-report-2026",
+    "what": "1,500 travelers in the US, the UK and Australia on how they choose and book glamping."
+   },
+   {
+    "n": 5,
+    "title": "What the 2025 numbers are telling us about boutique hotels",
+    "by": "CoStar, Bardoul Hotel Advisors",
+    "date": "2026-06-24",
+    "url": "https://www.costar.com/article/1969001935/what-the-2025-numbers-are-really-telling-us-about-boutique-hotels",
+    "what": "Boutique and lifestyle hotels against traditional hotels, US, 2025."
+   },
+   {
+    "n": 6,
+    "title": "2026 Adventure Travel Trends and Insights",
+    "by": "Adventure Travel Trade Association",
+    "date": "2026-04-22",
+    "url": "https://www.adventuretravelnews.com/atta-releases-2026-adventure-travel-trends-insights-report",
+    "what": "329 tour operators. About 75% of trip revenue stays in the local economy."
+   },
+   {
+    "n": 7,
+    "title": "Travel and sustainability research 2025",
+    "by": "Booking.com",
+    "date": "2025-04-22",
+    "url": "https://www.hospitalitynet.org/news/4126835.html",
+    "what": "32,000 travelers in 34 countries. 93% want to make more sustainable choices."
+   },
+   {
+    "n": 8,
+    "title": "Branded Residences: The Americas 2026",
+    "by": "Savills",
+    "date": "2026-05",
+    "url": "https://brandedresi.com/savills-branded-residences-report-the-americas/",
+    "what": "370 completed schemes in the Americas. Resort schemes carry a 39% premium worldwide."
+   },
+   {
+    "n": 9,
+    "title": "Central and South America, 2026 forecast",
+    "by": "World Travel & Tourism Council",
+    "date": "2026-05-28",
+    "url": "https://wttc.org/news/central-south-america-travel-tourism-sector-set-to-outpace-global-growth-in-2026",
+    "what": "Visitor spending in the region projected to grow 7.8% in 2026."
+   },
+   {
+    "n": 10,
+    "title": "Tourism in Latin America and the Caribbean: five actions",
+    "by": "Inter-American Development Bank",
+    "date": "2026-04-28",
+    "url": "https://www.iadb.org/en/blog/trade-and-investment/tourism-latin-america-and-caribbean-five-concrete-actions-turn-potential-results",
+    "what": "12 of the world's 14 biomes. $938 spent a visitor against $1,184 worldwide."
+   }
+  ],
+  "steps": {
+   "demand": [
+    {
+     "lab": "North American households that camped",
+     "v": "52M",
+     "line": "more than 52 million in 2025.",
+     "s": {
+      "label": "KOA, 2026",
+      "url": "https://www.koapressroom.com/press/2026-camping-hospitality-report/",
+      "date": "2026-04"
+     },
+     "q": "over 52 million North American households camping in 2025, exceeding pre-pandemic levels"
+    },
+    {
+     "lab": "Cabin and glamping households, US",
+     "v": "12.6M",
+     "line": "2024, up 88% since 2019.",
+     "s": {
+      "label": "MMCG Invest, March 2026",
+      "url": "https://www.mmcginvest.com/post/the-us-glamping-industry-enters-its-institutional-era",
+      "date": "2026-03"
+     },
+     "q": "Cabins and glamping households reached 12.6 million in 2024"
+    },
+    {
+     "lab": "Glamping, share of camping",
+     "v": "29%",
+     "line": "2025. 31% of new campers chose glamping.",
+     "s": {
+      "label": "KOA, 2026",
+      "url": "https://www.koapressroom.com/press/2026-camping-hospitality-report/",
+      "date": "2026-04"
+     },
+     "q": "Glamping continues to drive market expansion, accounting for 29% of all camping experiences in 2025"
+    },
+    {
+     "lab": "Wellness tourism, worldwide",
+     "v": "$893.9B",
+     "line": "2024, up 13.8% on 2023.",
+     "s": {
+      "label": "Global Wellness Institute, 2025",
+      "url": "https://globalwellnessinstitute.org/wp-content/uploads/2025/11/2025-GWI-WE-Monitor_DIGITAL-FINAL.pdf",
+      "date": "2025-11"
+     },
+     "q": "Wellness Tourism $893.9 billion"
+    },
+    {
+     "lab": "Travelers who want more sustainable choices",
+     "v": "93%",
+     "line": "2025, against 42% who believed they traveled sustainably in 2016.",
+     "s": {
+      "label": "Booking.com via Hospitality Net, April 2025",
+      "url": "https://www.hospitalitynet.org/news/4126835.html",
+      "date": "2025-04-22"
+     },
+     "q": "By 2025, 93% of global travelers say they want to make more sustainable travel choices"
+    },
+    {
+     "lab": "Travelers who want spend to reach the community",
+     "v": "73%",
+     "line": "2025, 32,000 travelers in 34 countries.",
+     "s": {
+      "label": "Booking.com via Hospitality Net, April 2025",
+      "url": "https://www.hospitalitynet.org/news/4126835.html",
+      "date": "2025-04-22"
+     },
+     "q": "73% wanting the money they spend to go back to the local community"
+    }
+   ],
+   "boutique": {
+    "pairs": [
+     {
+      "name": "Revenue growth, 2025",
+      "a": 4.2,
+      "b": -1.7,
+      "unit": "%"
+     },
+     {
+      "name": "Demand growth, 2025",
+      "a": 3.1,
+      "b": -0.6,
+      "unit": "%"
+     },
+     {
+      "name": "Average daily rate, 2025",
+      "a": 258,
+      "b": 192,
+      "unit": "$"
+     }
+    ],
+    "s": {
+     "label": "CoStar, Bardoul Hotel Advisors, 24 June 2026",
+     "url": "https://www.costar.com/article/1969001935/what-the-2025-numbers-are-really-telling-us-about-boutique-hotels",
+     "date": "2026-06-24"
+    },
+    "kpis": [
+     {
+      "lab": "Lifestyle hotel rooms, US",
+      "v": "127,000",
+      "line": "up 6% in 2025, 38% of boutique supply.",
+      "s": {
+       "label": "CoStar, June 2026",
+       "url": "https://www.costar.com/article/1969001935/what-the-2025-numbers-are-really-telling-us-about-boutique-hotels",
+       "date": "2026-06-24"
+      }
+     },
+     {
+      "lab": "Lifestyle rooms under construction",
+      "v": "11,000+",
+      "line": "9% potential growth. Soft-brand collections: 7,700 rooms in the pipeline.",
+      "s": {
+       "label": "CoStar, June 2026",
+       "url": "https://www.costar.com/article/1969001935/what-the-2025-numbers-are-really-telling-us-about-boutique-hotels",
+       "date": "2026-06-24"
+      }
+     },
+     {
+      "lab": "Independent boutique rooms",
+      "v": "95,846",
+      "line": "down 10.1% in 2025.",
+      "s": {
+       "label": "CoStar, June 2026",
+       "url": "https://www.costar.com/article/1969001935/what-the-2025-numbers-are-really-telling-us-about-boutique-hotels",
+       "date": "2026-06-24"
+      }
+     }
+    ]
+   },
+   "deal_kpis": [
+    {
+     "lab": "US glamping properties tracked",
+     "v": "745",
+     "line": "3,409 units in all 50 states, mid-2025.",
+     "s": {
+      "label": "MMCG Invest, March 2026",
+      "url": "https://www.mmcginvest.com/post/the-us-glamping-industry-enters-its-institutional-era",
+      "date": "2026-03"
+     }
+    },
+    {
+     "lab": "KSL in Under Canvas",
+     "v": "$175M+",
+     "line": "cumulative, 2018 to 2025.",
+     "s": {
+      "label": "MMCG Invest, March 2026",
+      "url": "https://www.mmcginvest.com/post/the-us-glamping-industry-enters-its-institutional-era",
+      "date": "2026-03"
+     }
+    },
+    {
+     "lab": "Hipcamp funding",
+     "v": "$98.6M",
+     "line": "four rounds, a valuation of more than $300 million.",
+     "s": {
+      "label": "MMCG Invest, March 2026",
+      "url": "https://www.mmcginvest.com/post/the-us-glamping-industry-enters-its-institutional-era",
+      "date": "2026-03"
+     }
+    }
+   ],
+   "americas": [
+    {
+     "lab": "Latin America and the Caribbean, biomes",
+     "v": "12 of 14",
+     "line": "of the world's biomes, and 17% of UNESCO natural heritage sites.",
+     "s": {
+      "label": "IDB, April 2026",
+      "url": "https://www.iadb.org/en/blog/trade-and-investment/tourism-latin-america-and-caribbean-five-concrete-actions-turn-potential-results",
+      "date": "2026-04-28"
+     }
+    },
+    {
+     "lab": "Spend a visitor, Latin America and the Caribbean",
+     "v": "$938",
+     "line": "against $1,184 worldwide.",
+     "s": {
+      "label": "IDB, April 2026",
+      "url": "https://www.iadb.org/en/blog/trade-and-investment/tourism-latin-america-and-caribbean-five-concrete-actions-turn-potential-results",
+      "date": "2026-04-28"
+     }
+    },
+    {
+     "lab": "Central and South America, visitor spend",
+     "v": "+7.8%",
+     "line": "projected for 2026, against 3.7% worldwide. 18.5 million jobs.",
+     "s": {
+      "label": "WTTC, May 2026",
+      "url": "https://wttc.org/news/central-south-america-travel-tourism-sector-set-to-outpace-global-growth-in-2026",
+      "date": "2026-05-28"
+     }
+    },
+    {
+     "lab": "Trip revenue that stays local",
+     "v": "75%",
+     "line": "adventure trips, 2026 survey of 329 operators. South American operators rank hiking first.",
+     "s": {
+      "label": "ATTA, April 2026",
+      "url": "https://www.adventuretravelnews.com/atta-releases-2026-adventure-travel-trends-insights-report",
+      "date": "2026-04-22"
+     }
+    },
+    {
+     "lab": "South America, international arrivals",
+     "v": "+7%",
+     "line": "2025, the fastest subregion of the Americas.",
+     "s": {
+      "label": "UN Tourism via Hospitality Net, January 2026",
+      "url": "https://www.hospitalitynet.org/news/4130515.html",
+      "date": "2026-01-21"
+     }
+    },
+    {
+     "lab": "Resort branded residences, premium",
+     "v": "39%",
+     "line": "worldwide, 2025, up from 34% in 2024.",
+     "s": {
+      "label": "Savills, 2025/2026",
+      "url": "https://quintaproperty.com/wp-content/uploads/2025/11/Savills-Branded-Residences-Annual-Report-2025-2026-1.pdf",
+      "date": "2025"
+     }
+    }
+   ]
+  },
+  "units": [
+   {
+    "name": "Villas",
+    "n": 62,
+    "ids": [
+     "CR-013",
+     "MX-003",
+     "MX-013",
+     "EC-001",
+     "MX-062",
+     "MX-017",
+     "MX-047",
+     "BS-006",
+     "US-008",
+     "CL-001",
+     "BS-003",
+     "MX-019",
+     "TC-002",
+     "CR-009",
+     "BS-007",
+     "AI-002",
+     "US-194",
+     "CR-002",
+     "CR-015",
+     "BS-001",
+     "CA-001",
+     "AR-002",
+     "MX-021",
+     "US-045",
+     "US-060",
+     "US-065",
+     "MX-037",
+     "PA-004",
+     "MX-039",
+     "JM-002",
+     "BR-018",
+     "US-103",
+     "NI-002",
+     "BZ-006",
+     "NI-003",
+     "JM-004",
+     "LC-002",
+     "VG-001",
+     "BR-005",
+     "BZ-001",
+     "AR-006",
+     "US-055",
+     "MX-031",
+     "MX-078",
+     "US-017",
+     "US-026",
+     "CR-007",
+     "MX-075",
+     "MX-077",
+     "US-117",
+     "BR-004",
+     "MX-082",
+     "MX-007",
+     "BM-001",
+     "BR-021",
+     "US-197",
+     "BR-023",
+     "CR-020",
+     "JM-006",
+     "GT-001",
+     "BZ-003",
+     "CR-001"
+    ]
+   },
+   {
+    "name": "Cabins",
+    "n": 32,
+    "ids": [
+     "US-016",
+     "US-023",
+     "CA-003",
+     "CL-005",
+     "US-078",
+     "US-046",
+     "US-084",
+     "UY-003",
+     "US-066",
+     "PE-003",
+     "US-131",
+     "CA-008",
+     "US-021",
+     "PR-001",
+     "CA-011",
+     "US-110",
+     "MX-071",
+     "US-178",
+     "US-043",
+     "US-077",
+     "UY-001",
+     "CA-014",
+     "CA-009",
+     "CA-012",
+     "CA-002",
+     "MX-011",
+     "MX-022",
+     "CL-015",
+     "CR-020",
+     "US-193",
+     "US-109",
+     "US-190"
+    ]
+   },
+   {
+    "name": "Tents and safari tents",
+    "n": 18,
+    "ids": [
+     "US-048",
+     "US-016",
+     "CA-003",
+     "US-078",
+     "CR-013",
+     "PA-001",
+     "US-046",
+     "EC-001",
+     "US-084",
+     "US-182",
+     "US-056",
+     "CR-010",
+     "US-019",
+     "PA-005",
+     "CA-006",
+     "BR-019",
+     "US-036",
+     "US-125"
+    ]
+   },
+   {
+    "name": "Casitas and bungalows",
+    "n": 16,
+    "ids": [
+     "MX-013",
+     "PE-002",
+     "MX-063",
+     "MX-017",
+     "PA-005",
+     "UY-005",
+     "BS-003",
+     "MX-019",
+     "PE-003",
+     "NI-003",
+     "MX-065",
+     "BR-008",
+     "BR-020",
+     "NI-004",
+     "CR-017",
+     "BR-014"
+    ]
+   },
+   {
+    "name": "Treehouses",
+    "n": 10,
+    "ids": [
+     "US-023",
+     "MX-003",
+     "MX-063",
+     "MX-047",
+     "MX-057",
+     "US-021",
+     "PR-001",
+     "US-154",
+     "CR-017",
+     "MX-015"
+    ]
+   },
+   {
+    "name": "Domes",
+    "n": 5,
+    "ids": [
+     "US-023",
+     "US-035",
+     "CL-005",
+     "CL-006",
+     "MX-054"
+    ]
+   },
+   {
+    "name": "Airstreams and trailers",
+    "n": 5,
+    "ids": [
+     "US-048",
+     "US-090",
+     "US-016",
+     "US-084",
+     "PR-001"
+    ]
+   },
+   {
+    "name": "Yurts",
+    "n": 4,
+    "ids": [
+     "US-048",
+     "US-090",
+     "US-084",
+     "CL-011"
+    ]
+   }
+  ],
+  "methods": [
+   {
+    "name": "Prefab and modular",
+    "n": 28,
+    "ids": [
+     "US-090",
+     "US-016",
+     "CL-005",
+     "US-070",
+     "US-102",
+     "CL-007",
+     "EC-003",
+     "EC-004",
+     "CL-003",
+     "US-077",
+     "UY-001",
+     "CR-017",
+     "US-095",
+     "US-114",
+     "CA-002",
+     "CL-012",
+     "MX-011",
+     "MX-022",
+     "US-097",
+     "CL-015",
+     "CR-020",
+     "US-193",
+     "US-099",
+     "US-109",
+     "CR-018",
+     "US-190",
+     "US-129",
+     "US-192"
+    ]
+   },
+   {
+    "name": "Earth: rammed, adobe, compressed",
+    "n": 13,
+    "ids": [
+     "CR-013",
+     "US-006",
+     "MX-043",
+     "CR-007",
+     "MX-075",
+     "MX-077",
+     "MX-064",
+     "MX-076",
+     "CL-010",
+     "US-003",
+     "MX-014",
+     "CA-012",
+     "CA-017"
+    ]
+   },
+   {
+    "name": "Domes and kits",
+    "n": 5,
+    "ids": [
+     "US-023",
+     "US-035",
+     "CL-005",
+     "CL-006",
+     "MX-054"
+    ]
+   },
+   {
+    "name": "Printed",
+    "n": 4,
+    "ids": [
+     "US-020",
+     "US-048",
+     "US-090",
+     "US-070"
+    ]
+   },
+   {
+    "name": "Bamboo",
+    "n": 3,
+    "ids": [
+     "PA-001",
+     "MX-063",
+     "MX-015"
+    ]
+   },
+   {
+    "name": "Mass timber",
+    "n": 3,
+    "ids": [
+     "US-090",
+     "BR-004",
+     "US-155"
+    ]
+   }
+  ],
+  "small_n": 150,
+  "deals": [
+   {
+    "date": "2017-01",
+    "text": "Hyatt owns Miraval",
+    "url": "https://lodgingmagazine.com/hyatt-acquires-miraval-group/",
+    "id": null
+   },
+   {
+    "date": "2018-05",
+    "text": "Grupo Córpora owns Explora",
+    "url": "https://www.df.cl/empresas/infraestructura-inmobiliaria/explora-potencia-expansion-internacional-con-hotel-de-lujo-en-santa",
+    "id": "CL-007"
+   },
+   {
+    "date": "2018-07",
+    "text": "Accor owns 21c Museum Hotels",
+    "url": "https://lodgingmagazine.com/accorhotels-purchase-85-percent-stake-21c-museum-hotels-51-million/",
+    "id": "US-001"
+   },
+   {
+    "date": "2018-11",
+    "text": "Hyatt owns Alila",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001468174/000119312518339871/d662906dex991.htm",
+    "id": null
+   },
+   {
+    "date": "2018-12",
+    "text": "KSL Capital invests in Under Canvas",
+    "url": "https://www.kslcapital.com/news/under-canvas-enters-next-phase-of-growth-with-investment-by-ksl-capital",
+    "id": "US-182"
+   },
+   {
+    "date": "2019-02",
+    "text": "IHG owns Six Senses",
+    "url": "https://www.sec.gov/Archives/edgar/data/858446/000165495419001701/a4159q.htm",
+    "id": null
+   },
+   {
+    "date": "2019-02",
+    "text": "Whitman Peterson invests in AutoCamp",
+    "url": "https://www.hospitalitynet.org/news/4091842.html",
+    "id": "US-016"
+   },
+   {
+    "date": "2020",
+    "text": "Grupo Posadas owns Curamoria Collection",
+    "url": "https://forbes.com.mx/?p=783171",
+    "id": "MX-035"
+   },
+   {
+    "date": "2020-10",
+    "text": "Marriott owns Design Hotels",
+    "url": "https://www.tageskarte.io/hotellerie/detail/squeeze-out-marriott-will-design-hotels-ag-komplett-uebernehmen.html",
+    "id": null
+   },
+   {
+    "date": "2021-01",
+    "text": "Accor partners with Faena",
+    "url": "https://www.proskauer.com/release/proskauer-represents-accor-in-global-venture-with-faena-group",
+    "id": "AR-005"
+   },
+   {
+    "date": "2021-10",
+    "text": "Accor owns Ennismore",
+    "url": "https://sleepermagazine.com/?p=71221",
+    "id": "US-049"
+   },
+   {
+    "date": "2022-08",
+    "text": "KSL Capital invests in Beckons",
+    "url": "https://www.kslcapital.com/news/baillie-lodges-expands-to-south-america-with-acquisition-of-chiles-tierra-hotels",
+    "id": "CL-002"
+   },
+   {
+    "date": "2022-09",
+    "text": "Grupo Xcaret owns Hoteles Xcaret",
+    "url": "https://forbes.com.mx/?p=1024654",
+    "id": "MX-040"
+   },
+   {
+    "date": "2024-02",
+    "text": "Hilton partners with AutoCamp",
+    "url": "https://www.travelpulse.com/news/hotels-and-resorts/hilton-announces-partnership-with-autocamp-to-offer-glamping-national-parks-stays",
+    "id": "US-016"
+   },
+   {
+    "date": "2024-02",
+    "text": "Hilton partners with Small Luxury Hotels of the World",
+    "url": "https://www.businesswire.com/news/home/20240207042568/en/Hilton-Partners-with-Small-Luxury-Hotels-of-the-World-To-Dramatically-Expand-Global-Luxury-Portfolio",
+    "id": null
+   },
+   {
+    "date": "2024-07",
+    "text": "Hyatt partners with Under Canvas",
+    "url": "https://www.hoteldive.com/news/hyatt-under-canvas-luxury-outdoor-loyalty/722634/",
+    "id": "US-182"
+   },
+   {
+    "date": "2024-08",
+    "text": "JHSF owns Fasano",
+    "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+    "id": "BR-009"
+   },
+   {
+    "date": "2024-08",
+    "text": "JHSF owns The Surf Lodge",
+    "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+    "id": "BR-016"
+   },
+   {
+    "date": "2024-12",
+    "text": "Marriott owns Postcard Cabins",
+    "url": "https://www.hospitalitynet.org/news/4125079/marriott-international-explores-the-outdoors-with-postcard-cabins-and-trailborn",
+    "id": "US-131"
+   },
+   {
+    "date": "2024-12",
+    "text": "Marriott partners with Trailborn",
+    "url": "https://www.hospitalitynet.org/news/4125079/marriott-international-explores-the-outdoors-with-postcard-cabins-and-trailborn",
+    "id": "US-175"
+   },
+   {
+    "date": "2025-05",
+    "text": "RLH Properties owns sites under Rosewood Hotels & Resorts",
+    "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+    "id": "MX-067"
+   },
+   {
+    "date": "2025-05",
+    "text": "RLH Properties owns sites under One&Only",
+    "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+    "id": "MX-067"
+   },
+   {
+    "date": "2025-05",
+    "text": "RLH Properties owns sites under Banyan Tree",
+    "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+    "id": "MX-067"
+   },
+   {
+    "date": "2025-05",
+    "text": "RLH Properties owns sites under Andaz",
+    "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+    "id": "MX-067"
+   },
+   {
+    "date": "2025-05",
+    "text": "RLH Properties owns sites under Park Hyatt",
+    "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+    "id": "MX-067"
+   },
+   {
+    "date": "2025-12",
+    "text": "Montage International owns Pendry Hotels & Resorts",
+    "url": "https://www.hotel-online.com/index.php/news/montage-international-thor-urbana-and-life-properties-international-announce-montage-valle-de-guadalupe-in-baja-california",
+    "id": "US-103"
+   },
+   {
+    "date": "2026-03",
+    "text": "The Friedkin Group owns Auberge Resorts Collection",
+    "url": "https://auberge.com/press/the-stockman-debut/",
+    "id": "US-015"
+   },
+   {
+    "date": "2026-05",
+    "text": "Minor Hotels owns Anantara",
+    "url": "https://hotelbusiness.com/minor-hotels-to-debut-anantara-in-the-caribbean/",
+    "id": null
+   }
+  ],
+  "pyramids": [
+   {
+    "name": "Marriott International",
+    "short": "Marriott",
+    "id": null,
+    "kind": "hotel group",
+    "hq": "Bethesda, US",
+    "url": "https://www.marriott.com/brands/outdoor-collection/postcard-cabins.mi",
+    "brands": [
+     {
+      "name": "Postcard Cabins (Outdoor Collection by Marriott Bonvoy)",
+      "id": "US-131",
+      "segment": "outdoor",
+      "tie": "Owns",
+      "date": "2024-12",
+      "detail": "Marriott bought the Postcard Cabins brand (formerly Getaway) in December 2024: 29 outposts, 1,200+ cabins. The outposts run under long-term agreements with Marriott. Terms not disclosed.",
+      "url": "https://www.hospitalitynet.org/news/4125079/marriott-international-explores-the-outdoors-with-postcard-cabins-and-trailborn",
+      "same": false,
+      "sites": [
+       {
+        "name": "Postcard Cabins Brazos Valley",
+        "place": "Navasota, Texas",
+        "country": "United States",
+        "keys": 46,
+        "status": "open",
+        "year": null,
+        "url": "https://www.marriott.com/en-us/hotels/cllnu-postcard-cabins-brazos-valley/overview",
+        "id": "US-131"
+       },
+       {
+        "name": "Postcard Cabins Hill Country",
+        "place": "Wimberley, Texas",
+        "country": "United States",
+        "keys": 40,
+        "status": "open",
+        "year": null,
+        "url": "https://www.marriott.com/en-gb/hotels/auswu-postcard-cabins-hill-country/overview/",
+        "id": "US-131"
+       },
+       {
+        "name": "Postcard Cabins Piney Woods",
+        "place": "Larue, Texas",
+        "country": "United States",
+        "keys": 40,
+        "status": "open",
+        "year": null,
+        "url": "https://www.marriott.com/en-gb/hotels/tyrlu-postcard-cabins-piney-woods/rooms",
+        "id": "US-131"
+       },
+       {
+        "name": "Postcard Cabins Shenandoah",
+        "place": "Stanardsville, Virginia",
+        "country": "United States",
+        "keys": 45,
+        "status": "open",
+        "year": null,
+        "url": "https://www.marriott.com/en-us/hotels/chosh-postcard-cabins-shenandoah-outdoor-collection-bonvoy/overview/",
+        "id": "US-131"
+       },
+       {
+        "name": "Postcard Cabins Chattahoochee",
+        "place": "Suches, Georgia",
+        "country": "United States",
+        "keys": 30,
+        "status": "open",
+        "year": null,
+        "url": "https://www.marriott.com/en-gb/hotels/atlsq-postcard-cabins-chattahoochee/rooms/",
+        "id": "US-131"
+       },
+       {
+        "name": "Postcard Cabins Big Bear",
+        "place": "Running Springs, California",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.marriott.com/en-us/hotels/ontbb-postcard-cabins-big-bear-outdoor-collection-bonvoy/plan-your-stay/",
+        "id": "US-131"
+       }
+      ]
+     },
+     {
+      "name": "Trailborn (Outdoor Collection)",
+      "id": "US-175",
+      "segment": "outdoor",
+      "tie": "Partner",
+      "date": "2024-12",
+      "detail": "Long-term agreement announced December 2024 to add Trailborn's hotels to Marriott's system, alongside the Postcard Cabins purchase. Terms not disclosed.",
+      "url": "https://www.hospitalitynet.org/news/4125079/marriott-international-explores-the-outdoors-with-postcard-cabins-and-trailborn",
+      "same": false,
+      "sites": [
+       {
+        "name": "Trailborn Rocky Mountains",
+        "place": "Estes Park, Colorado",
+        "country": "United States",
+        "keys": 40,
+        "status": "open",
+        "year": 2023,
+        "url": "https://www.hospitalitynet.org/news/4119472/trailborn-launches-hospitality-brand",
+        "id": null
+       },
+       {
+        "name": "Trailborn Rocky Mountains Outpost",
+        "place": "Estes Park, Colorado",
+        "country": "United States",
+        "keys": 46,
+        "status": "open",
+        "year": 2024,
+        "url": "https://www.hospitalitynet.org/news/4119472/trailborn-launches-hospitality-brand",
+        "id": null
+       },
+       {
+        "name": "Trailborn Grand Canyon",
+        "place": "Near Grand Canyon, Arizona",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.hospitalitynet.org/news/4125079/marriott-international-explores-the-outdoors-with-postcard-cabins-and-trailborn",
+        "id": null
+       },
+       {
+        "name": "Trailborn Highlands",
+        "place": "Highlands, North Carolina",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.hospitalitynet.org/news/4125079/marriott-international-explores-the-outdoors-with-postcard-cabins-and-trailborn",
+        "id": null
+       },
+       {
+        "name": "Trailborn Wrightsville Beach",
+        "place": "Wrightsville Beach, North Carolina",
+        "country": "United States",
+        "keys": null,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://www.hospitalitynet.org/news/4125079/marriott-international-explores-the-outdoors-with-postcard-cabins-and-trailborn",
+        "id": null
+       },
+       {
+        "name": "Trailborn Mendocino",
+        "place": "Mendocino, California",
+        "country": "United States",
+        "keys": null,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://www.hospitalitynet.org/news/4125079/marriott-international-explores-the-outdoors-with-postcard-cabins-and-trailborn",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Design Hotels",
+      "id": null,
+      "segment": "boutique",
+      "tie": "Owns",
+      "date": "2020-10",
+      "detail": "Marriott's holding held more than 90% of Design Hotels AG in October 2020 and moved to squeeze out the remaining shareholders. Member hotels stay independent and book through Marriott Bonvoy.",
+      "url": "https://www.tageskarte.io/hotellerie/detail/squeeze-out-marriott-will-design-hotels-ag-komplett-uebernehmen.html",
+      "same": false,
+      "sites": [
+       {
+        "name": "Terrestre, a Member of Design Hotels",
+        "place": "Puerto Escondido, Oaxaca",
+        "country": "Mexico",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.marriott.com/en-us/hotels/pxmtr-terrestre-a-member-of-design-hotels/overview/",
+        "id": null
+       },
+       {
+        "name": "Hotel Belmar",
+        "place": "Monteverde, Puntarenas",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": 2025,
+        "url": "https://hotelbelmar.net/blog/hotel-belmar-becomes-first-costa-rican-member-of-design-hotels-tm",
+        "id": "CR-009"
+       },
+       {
+        "name": "Hotel Sevilla (Grupo Habita)",
+        "place": "Mérida, Yucatán",
+        "country": "Mexico",
+        "keys": 21,
+        "status": "open",
+        "year": 2025,
+        "url": "https://yucatanmagazine.com/the-magic-formula-that-made-grupo-habita-mexicos-top-hotelier-of-2026/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Hilton",
+    "short": "Hilton",
+    "id": null,
+    "kind": "hotel group",
+    "hq": null,
+    "url": "https://www.travelpulse.com/news/hotels-and-resorts/hilton-announces-partnership-with-autocamp-to-offer-glamping-national-parks-stays",
+    "brands": [
+     {
+      "name": "AutoCamp",
+      "id": "US-016",
+      "segment": "glamping",
+      "tie": "Partner",
+      "date": "2024-02",
+      "detail": "Exclusive distribution partnership: AutoCamp stays are bookable on Hilton channels and earn Hilton Honors points. No equity stake was reported in the sources read.",
+      "url": "https://www.travelpulse.com/news/hotels-and-resorts/hilton-announces-partnership-with-autocamp-to-offer-glamping-national-parks-stays",
+      "same": false,
+      "sites": [
+       {
+        "name": "AutoCamp Yosemite",
+        "place": "Midpines, California",
+        "country": "United States",
+        "keys": 105,
+        "status": "open",
+        "year": 2019,
+        "url": "https://www.hospitalitynet.org/news/4091842.html",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Sequoia",
+        "place": "Three Rivers area, California",
+        "country": "United States",
+        "keys": 85,
+        "status": "open",
+        "year": 2025,
+        "url": "https://www.hoteldive.com/news/autocamp-opens-boutique-property-sequoia-national-park/742012/",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Hill Country",
+        "place": "Hill Country, Texas",
+        "country": "United States",
+        "keys": null,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://autocamp.com/",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Joshua Tree",
+        "place": "Joshua Tree, California",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://autocamp.com/",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Small Luxury Hotels of the World (SLH)",
+      "id": null,
+      "segment": "boutique",
+      "tie": "Partner",
+      "date": "2024-02",
+      "detail": "Booking and distribution partnership, not an equity deal: participating SLH hotels (560 in 90 countries at signing) are bookable on Hilton channels.",
+      "url": "https://www.businesswire.com/news/home/20240207042568/en/Hilton-Partners-with-Small-Luxury-Hotels-of-the-World-To-Dramatically-Expand-Global-Luxury-Portfolio",
+      "same": false,
+      "sites": [
+       {
+        "name": "Los Altos Resort, an SLH Hotel",
+        "place": "Manuel Antonio, Puntarenas",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.hilton.com/en/locations/costa-rica/manuel-antonio/luxury/small-luxury-hotels-slh/",
+        "id": null
+       },
+       {
+        "name": "Alta Las Palomas, an SLH Hotel",
+        "place": "Manuel Antonio, Puntarenas",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.hilton.com/en/locations/costa-rica/manuel-antonio/luxury/small-luxury-hotels-slh/",
+        "id": null
+       },
+       {
+        "name": "Hotel Three Sixty, an SLH Hotel",
+        "place": "Manuel Antonio, Puntarenas",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.hilton.com/en/locations/costa-rica/manuel-antonio/luxury/small-luxury-hotels-slh/",
+        "id": null
+       },
+       {
+        "name": "The Retreat Costa Rica - Wellness Resort and Spa, an SLH Hotel",
+        "place": "Manuel Antonio area, Puntarenas",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.hilton.com/en/locations/costa-rica/manuel-antonio/luxury/small-luxury-hotels-slh/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Hyatt Hotels Corporation",
+    "short": "Hyatt",
+    "id": null,
+    "kind": "hotel group",
+    "hq": "Chicago, US",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001468174/000119312518339871/d662906dex991.htm",
+    "brands": [
+     {
+      "name": "Under Canvas",
+      "id": "US-182",
+      "segment": "glamping",
+      "tie": "Partner",
+      "date": "2024-07",
+      "detail": "Exclusive partnership: Under Canvas camps join World of Hyatt for booking and loyalty. Under Canvas is backed by KSL Capital Partners (see KSL).",
+      "url": "https://www.hoteldive.com/news/hyatt-under-canvas-luxury-outdoor-loyalty/722634/",
+      "same": false,
+      "sites": [
+       {
+        "name": "Under Canvas Yosemite",
+        "place": "Near Yosemite National Park, California",
+        "country": "United States",
+        "keys": 71,
+        "status": "open",
+        "year": 2026,
+        "url": "https://www.hotelmanagement.net/openings/under-canvas-opens-first-california-camp-near-yosemite-national-park",
+        "id": "US-182"
+       },
+       {
+        "name": "Under Canvas White Mountains",
+        "place": "Western White Mountains, New Hampshire",
+        "country": "United States",
+        "keys": 45,
+        "status": "open",
+        "year": 2026,
+        "url": "https://www.undercanvas.com/press-releases/under-canvas-opens-white-mountains-camp-in-new-hampshire-expanding-luxury-outdoor-hospitality-in-new-england/",
+        "id": "US-182"
+       },
+       {
+        "name": "Under Canvas Santa Fe",
+        "place": "Santa Fe, New Mexico",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.undercanvas.com/about/",
+        "id": "US-182"
+       },
+       {
+        "name": "Under Canvas Grand Canyon",
+        "place": "Grand Canyon, Arizona",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.undercanvas.com/about/",
+        "id": "US-182"
+       }
+      ]
+     },
+     {
+      "name": "Alila",
+      "id": null,
+      "segment": "eco",
+      "tie": "Owns",
+      "date": "2018-11",
+      "detail": "Came with Hyatt's purchase of Two Roads Hospitality, closed November 30, 2018 at a revised $405 million base price. In June 2021 a Hyatt affiliate also bought the Alila Ventana Big Sur real estate for about $148 million.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001468174/000119312518339871/d662906dex991.htm",
+      "same": false,
+      "sites": [
+       {
+        "name": "Ventana Big Sur, an Alila Resort",
+        "place": "Big Sur, California",
+        "country": "United States",
+        "keys": 59,
+        "status": "open",
+        "year": null,
+        "url": "https://www.sec.gov/Archives/edgar/data/1468174/000119312521184913/d175239dex991.htm",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Miraval",
+      "id": null,
+      "segment": "wellness",
+      "tie": "Owns",
+      "date": "2017-01",
+      "detail": "Hyatt bought Miraval Group from a KSL Capital Partners affiliate in January 2017, with plans to redevelop resorts in Austin, Texas and Lenox, Massachusetts.",
+      "url": "https://lodgingmagazine.com/hyatt-acquires-miraval-group/",
+      "same": false,
+      "sites": [
+       {
+        "name": "Miraval Arizona Resort & Spa",
+        "place": "Near Tucson, Arizona",
+        "country": "United States",
+        "keys": 118,
+        "status": "open",
+        "year": 1995,
+        "url": "https://onemileatatime.com/guides/miraval-resorts/",
+        "id": null
+       },
+       {
+        "name": "Miraval Austin",
+        "place": "Near Austin, Texas",
+        "country": "United States",
+        "keys": 121,
+        "status": "open",
+        "year": 2018,
+        "url": "https://onemileatatime.com/guides/miraval-resorts/",
+        "id": null
+       },
+       {
+        "name": "Miraval Berkshires",
+        "place": "Lenox, Massachusetts",
+        "country": "United States",
+        "keys": 104,
+        "status": "open",
+        "year": 2020,
+        "url": "https://onemileatatime.com/guides/miraval-resorts/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Accor",
+    "short": "Accor",
+    "id": null,
+    "kind": "hotel group",
+    "hq": "France",
+    "url": "https://www.faena.com/journal/faena-accor-a-new-global-venture",
+    "brands": [
+     {
+      "name": "Ennismore",
+      "id": "US-049",
+      "segment": "lifestyle",
+      "tie": "Owns",
+      "date": "2021-10",
+      "detail": "Accor holds 66.67% of Ennismore after an all-share merger closed in 2021; Sharan Pasricha holds 33.33%. Ennismore runs Delano, Hyde, SLS, Mondrian, The Hoxton, Mama Shelter, 21c and other lifestyle brands.",
+      "url": "https://sleepermagazine.com/?p=71221",
+      "same": false,
+      "sites": [
+       {
+        "name": "Delano East Cape",
+        "place": "East Cape, Los Cabos, Baja California Sur",
+        "country": "Mexico",
+        "keys": 117,
+        "status": "pipeline",
+        "year": 2029,
+        "url": "https://ennismore.com/stories/our-new-flagship-signings-openings-drive-strong-growth-across-the-americas/",
+        "id": null
+       },
+       {
+        "name": "Hyde Mazatlan",
+        "place": "Mazatlán, Sinaloa",
+        "country": "Mexico",
+        "keys": 172,
+        "status": "pipeline",
+        "year": 2027,
+        "url": "https://ennismore.com/stories/our-new-flagship-signings-openings-drive-strong-growth-across-the-americas/",
+        "id": null
+       },
+       {
+        "name": "SLS Playa Mujeres",
+        "place": "Costa Mujeres, Quintana Roo",
+        "country": "Mexico",
+        "keys": 498,
+        "status": "open",
+        "year": 2024,
+        "url": "https://ennismore.com/stories/our-new-flagship-signings-openings-drive-strong-growth-across-the-americas/",
+        "id": null
+       },
+       {
+        "name": "Mondrian Tulum Hotel & Residences",
+        "place": "Tulum, Quintana Roo",
+        "country": "Mexico",
+        "keys": 64,
+        "status": "pipeline",
+        "year": 2025,
+        "url": "https://www.hotel-online.com/news/ennismore-signs-with-inzigna-capital-for-mondrian-tulum-hotel-residences",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Faena",
+      "id": "AR-005",
+      "segment": "lifestyle",
+      "tie": "Partner",
+      "date": "2021-01",
+      "detail": "Global strategic partnership between Accor and Faena Group (Alan Faena and Len Blavatnik) to develop Faena Districts; the venture also manages Faena Buenos Aires and Faena District Miami Beach. No equity stake figure found.",
+      "url": "https://www.proskauer.com/release/proskauer-represents-accor-in-global-venture-with-faena-group",
+      "same": false,
+      "sites": [
+       {
+        "name": "Faena Buenos Aires",
+        "place": "Puerto Madero, Buenos Aires",
+        "country": "Argentina",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.proskauer.com/release/proskauer-represents-accor-in-global-venture-with-faena-group",
+        "id": null
+       },
+       {
+        "name": "Faena District Miami Beach",
+        "place": "Miami Beach, Florida",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.proskauer.com/release/proskauer-represents-accor-in-global-venture-with-faena-group",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "21c Museum Hotels",
+      "id": "US-001",
+      "segment": "boutique",
+      "tie": "Owns",
+      "date": "2018-07",
+      "detail": "AccorHotels agreed to buy 85% of 21c Museum Hotels for $51 million including earn-out in July 2018; no real estate was included. 21c now sits in the Ennismore portfolio.",
+      "url": "https://lodgingmagazine.com/accorhotels-purchase-85-percent-stake-21c-museum-hotels-51-million/",
+      "same": false,
+      "sites": [
+       {
+        "name": "21c Museum Hotel Bentonville",
+        "place": "Bentonville, Arkansas",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://lodgingmagazine.com/accorhotels-purchase-85-percent-stake-21c-museum-hotels-51-million/",
+        "id": "US-001"
+       },
+       {
+        "name": "21c Museum Hotel Louisville",
+        "place": "Louisville, Kentucky",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://lodgingmagazine.com/accorhotels-purchase-85-percent-stake-21c-museum-hotels-51-million/",
+        "id": "US-001"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Montage International",
+    "short": "Montage International",
+    "id": "US-103",
+    "kind": "hotel group",
+    "hq": "Orange County, US",
+    "url": "https://www.hotel-online.com/index.php/news/montage-international-thor-urbana-and-life-properties-international-announce-montage-valle-de-guadalupe-in-baja-california",
+    "brands": [
+     {
+      "name": "Montage Hotels & Resorts",
+      "id": "US-103",
+      "segment": "wellness",
+      "tie": "Owns",
+      "date": "2025-12",
+      "detail": "Montage manages; owners and developers build. Montage Valle de Guadalupe (announced December 2025) is developed with Thor Urbana and Life Properties International, which also partnered on Montage Los Cabos.",
+      "url": "https://www.hotel-online.com/index.php/news/montage-international-thor-urbana-and-life-properties-international-announce-montage-valle-de-guadalupe-in-baja-california",
+      "same": true,
+      "sites": [
+       {
+        "name": "Montage Valle de Guadalupe",
+        "place": "Bruma Wine Estate, Valle de Guadalupe, Baja California",
+        "country": "Mexico",
+        "keys": 62,
+        "status": "pipeline",
+        "year": 2028,
+        "url": "https://www.hotel-online.com/index.php/news/montage-international-thor-urbana-and-life-properties-international-announce-montage-valle-de-guadalupe-in-baja-california",
+        "id": null
+       },
+       {
+        "name": "Montage Cay",
+        "place": "The Abacos",
+        "country": "Bahamas",
+        "keys": 50,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://www.montage.com/",
+        "id": null
+       },
+       {
+        "name": "Montage Punta Mita",
+        "place": "Punta Mita, Nayarit",
+        "country": "Mexico",
+        "keys": null,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://www.hotel-online.com/index.php/news/montage-international-thor-urbana-and-life-properties-international-announce-montage-valle-de-guadalupe-in-baja-california",
+        "id": null
+       },
+       {
+        "name": "Montage Los Cabos",
+        "place": "Los Cabos, Baja California Sur",
+        "country": "Mexico",
+        "keys": null,
+        "status": "open",
+        "year": 2018,
+        "url": "https://www.hotel-online.com/index.php/news/montage-international-thor-urbana-and-life-properties-international-announce-montage-valle-de-guadalupe-in-baja-california",
+        "id": null
+       },
+       {
+        "name": "Montage Big Sky",
+        "place": "Big Sky, Montana",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.montage.com/",
+        "id": null
+       },
+       {
+        "name": "Montage Healdsburg",
+        "place": "Healdsburg, California",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.montage.com/",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Pendry Hotels & Resorts",
+      "id": null,
+      "segment": "lifestyle",
+      "tie": "Owns",
+      "date": "2025-12",
+      "detail": "Montage International's second brand. Pendry Punta Mita is in development alongside Montage Punta Mita.",
+      "url": "https://www.hotel-online.com/index.php/news/montage-international-thor-urbana-and-life-properties-international-announce-montage-valle-de-guadalupe-in-baja-california",
+      "same": false,
+      "sites": [
+       {
+        "name": "Pendry Punta Mita",
+        "place": "Punta Mita, Nayarit",
+        "country": "Mexico",
+        "keys": null,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://www.hotel-online.com/index.php/news/montage-international-thor-urbana-and-life-properties-international-announce-montage-valle-de-guadalupe-in-baja-california",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Cayuga Collection",
+    "short": "Cayuga Collection",
+    "id": "CR-004",
+    "kind": "hotel group",
+    "hq": null,
+    "url": "https://www.cayugacollection.com/",
+    "brands": [
+     {
+      "name": "Cayuga Collection",
+      "id": "CR-004",
+      "segment": "eco",
+      "tie": "Manages",
+      "date": null,
+      "detail": "Operator of sustainable small hotels in Central America for over two decades; lists seven hotels in four countries. Several hotels have separate owners.",
+      "url": "https://www.cayugacollection.com/",
+      "same": true,
+      "sites": [
+       {
+        "name": "Arenas del Mar Resort",
+        "place": "Manuel Antonio, Puntarenas",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.cayugacollection.com/",
+        "id": null
+       },
+       {
+        "name": "Kura Boutique Hotel",
+        "place": "Uvita, Puntarenas",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.cayugacollection.com/",
+        "id": null
+       },
+       {
+        "name": "Hotel Senda Monteverde",
+        "place": "Monteverde, Puntarenas",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.cayugacollection.com/",
+        "id": null
+       },
+       {
+        "name": "Hotel Aguas Claras",
+        "place": "Puerto Viejo, Limón",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.cayugacollection.com/",
+        "id": null
+       },
+       {
+        "name": "Isla Palenque Resort",
+        "place": "Gulf of Chiriquí",
+        "country": "Panama",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.cayugacollection.com/",
+        "id": null
+       },
+       {
+        "name": "Jicaro Island Lodge",
+        "place": "Isletas de Granada",
+        "country": "Nicaragua",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.cayugacollection.com/",
+        "id": null
+       },
+       {
+        "name": "Bolontiku Hotel",
+        "place": "Lake Petén Itzá, Petén",
+        "country": "Guatemala",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.cayugacollection.com/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Nayara Resorts",
+    "short": "Nayara Resorts",
+    "id": "CR-013",
+    "kind": "hotel group",
+    "hq": "Costa Rica",
+    "url": "https://nayararesorts.com/",
+    "brands": [
+     {
+      "name": "Nayara",
+      "id": "CR-013",
+      "segment": "eco",
+      "tie": "Partner",
+      "date": "2020-10",
+      "detail": "Costa Rican resort group with three Arenal resorts. In October 2020 it took on Tánica's two Chilean hotels as its first joint ventures with Tánica; it also runs Nayara Bocas del Toro in Panama.",
+      "url": "https://www.luxurytraveladvisor.com/hotels/nayara-expands-beyond-costa-rica-adds-two-tanica-hotels-chile",
+      "same": true,
+      "sites": [
+       {
+        "name": "Nayara Alto Atacama",
+        "place": "San Pedro de Atacama, Antofagasta",
+        "country": "Chile",
+        "keys": 42,
+        "status": "open",
+        "year": null,
+        "url": "https://www.luxurytraveladvisor.com/hotels/nayara-expands-beyond-costa-rica-adds-two-tanica-hotels-chile",
+        "id": null
+       },
+       {
+        "name": "Nayara Hangaroa",
+        "place": "Easter Island, Valparaíso",
+        "country": "Chile",
+        "keys": 75,
+        "status": "open",
+        "year": null,
+        "url": "https://www.luxurytraveladvisor.com/hotels/nayara-expands-beyond-costa-rica-adds-two-tanica-hotels-chile",
+        "id": null
+       },
+       {
+        "name": "Nayara Tented Camp",
+        "place": "Arenal Volcano National Park, Alajuela",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://nayararesorts.com/",
+        "id": null
+       },
+       {
+        "name": "Nayara Springs",
+        "place": "Arenal Volcano National Park, Alajuela",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://nayararesorts.com/",
+        "id": null
+       },
+       {
+        "name": "Nayara Gardens",
+        "place": "Arenal Volcano National Park, Alajuela",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://nayararesorts.com/",
+        "id": null
+       },
+       {
+        "name": "Nayara Bocas del Toro",
+        "place": "Bocas del Toro",
+        "country": "Panama",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://nayararesorts.com/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Aman Group (Vladislav Doronin)",
+    "short": "Aman Group",
+    "id": null,
+    "kind": "hotel group",
+    "hq": null,
+    "url": "https://www.hospitalitynet.org/news/4074818.html",
+    "brands": [
+     {
+      "name": "Aman",
+      "id": null,
+      "segment": "wellness",
+      "tie": "Owns",
+      "date": "2015-08",
+      "detail": "Vladislav Doronin has owned Aman since August 2015 and settled the ownership court dispute in March 2016. Aman runs six Americas and Caribbean properties, including a 10-tent glamping camp in Utah.",
+      "url": "https://www.hospitalitynet.org/news/4074818.html",
+      "same": true,
+      "sites": [
+       {
+        "name": "Amangiri",
+        "place": "Canyon Point, Utah",
+        "country": "United States",
+        "keys": 34,
+        "status": "open",
+        "year": null,
+        "url": "https://preview.www.aman.com/ko/destinations/country/usa-caribbean",
+        "id": null
+       },
+       {
+        "name": "Camp Sarika by Amangiri",
+        "place": "Canyon Point, Utah",
+        "country": "United States",
+        "keys": 10,
+        "status": "open",
+        "year": 2020,
+        "url": "https://www.journaldespalaces.com/en/pressrelease-58348-camp-sarika-by-amangiri-opens-1-july-an-enclave-of-seclusion-at-one-with-wilderness.html",
+        "id": null
+       },
+       {
+        "name": "Amangani",
+        "place": "Jackson Hole, Wyoming",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://preview.www.aman.com/ko/destinations/country/usa-caribbean",
+        "id": null
+       },
+       {
+        "name": "Amanyara",
+        "place": "Providenciales",
+        "country": "Turks and Caicos Islands",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://preview.www.aman.com/ko/destinations/country/usa-caribbean",
+        "id": null
+       },
+       {
+        "name": "Amanera",
+        "place": "Playa Grande",
+        "country": "Dominican Republic",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://preview.www.aman.com/ko/destinations/country/usa-caribbean",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Vik Retreats (Alexander and Carrie Vik)",
+    "short": "Vik Retreats",
+    "id": "UY-005",
+    "kind": "hotel group",
+    "hq": null,
+    "url": "https://www.vikvibe.com/about-vik-retreats",
+    "brands": [
+     {
+      "name": "Vik Retreats",
+      "id": "UY-005",
+      "segment": "boutique",
+      "tie": "Owns",
+      "date": null,
+      "detail": "Hotel and winery group of Alex and Carrie Vik, who design their own properties: three in José Ignacio, Uruguay, two at the VIK vineyard in Chile's Millahue Valley, plus Galleria Vik in Milan.",
+      "url": "https://www.vikvibe.com/about-vik-retreats",
+      "same": true,
+      "sites": [
+       {
+        "name": "Estancia Vik José Ignacio",
+        "place": "José Ignacio, Maldonado",
+        "country": "Uruguay",
+        "keys": 12,
+        "status": "open",
+        "year": null,
+        "url": "https://www.vikvibe.com/about-vik-retreats",
+        "id": null
+       },
+       {
+        "name": "Bahia Vik José Ignacio",
+        "place": "José Ignacio, Maldonado",
+        "country": "Uruguay",
+        "keys": 15,
+        "status": "open",
+        "year": null,
+        "url": "https://www.vikvibe.com/about-vik-retreats",
+        "id": null
+       },
+       {
+        "name": "Playa Vik José Ignacio",
+        "place": "José Ignacio, Maldonado",
+        "country": "Uruguay",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.vikvibe.com/about-vik-retreats",
+        "id": null
+       },
+       {
+        "name": "Vik Chile",
+        "place": "Millahue Valley, O'Higgins",
+        "country": "Chile",
+        "keys": 22,
+        "status": "open",
+        "year": null,
+        "url": "https://www.sothebys.com/en/articles/vik-retreats-a-cultured-collection-of-hotels",
+        "id": null
+       },
+       {
+        "name": "Puro Vik",
+        "place": "Millahue Valley, O'Higgins",
+        "country": "Chile",
+        "keys": 7,
+        "status": "open",
+        "year": null,
+        "url": "https://www.sothebys.com/en/articles/vik-retreats-a-cultured-collection-of-hotels",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "IHG Hotels & Resorts",
+    "short": "IHG",
+    "id": null,
+    "kind": "hotel group",
+    "hq": null,
+    "url": "https://www.sec.gov/Archives/edgar/data/858446/000165495419001701/a4159q.htm",
+    "brands": [
+     {
+      "name": "Six Senses",
+      "id": null,
+      "segment": "wellness",
+      "tie": "Owns",
+      "date": "2019-02",
+      "detail": "IHG completed the purchase of Six Senses Hotels Resorts Spas on February 12, 2019 for $300 million in cash. Six Senses manages its resorts under agreements with local owners.",
+      "url": "https://www.sec.gov/Archives/edgar/data/858446/000165495419001701/a4159q.htm",
+      "same": false,
+      "sites": [
+       {
+        "name": "Six Senses La Sagesse",
+        "place": "St. David's, Grenada",
+        "country": "Grenada",
+        "keys": 71,
+        "status": "open",
+        "year": 2024,
+        "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2024/a-warmhearted-welcome-to-six-senses-la-sagesse-grenada",
+        "id": null
+       },
+       {
+        "name": "Six Senses Xala",
+        "place": "Costalegre, Jalisco",
+        "country": "Mexico",
+        "keys": 51,
+        "status": "pipeline",
+        "year": 2026,
+        "url": "https://www.hospitalitynet.org/announcement/41010415.html",
+        "id": null
+       },
+       {
+        "name": "Six Senses Camp Korongo",
+        "place": "Near Kanab, Utah",
+        "country": "United States",
+        "keys": 41,
+        "status": "pipeline",
+        "year": 2029,
+        "url": "https://ihgplc.com/en/news-and-media/news-releases/2026/a-canyon-oasis-six-senses-desert-sanctuary-to-emerge-in-southern-utah",
+        "id": null
+       },
+       {
+        "name": "Six Senses Belize",
+        "place": "Ambergris Caye",
+        "country": "Belize",
+        "keys": 45,
+        "status": "pipeline",
+        "year": 2025,
+        "url": "https://www.luxurytraveladvisor.com/hotels/six-senses-belize-open-secret-beach-and-private-island",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Grupo Posadas",
+    "short": "Grupo Posadas",
+    "id": "MX-035",
+    "kind": "hotel group",
+    "hq": "Mexico",
+    "url": "https://www.posadas.com/acerca-de-posadas",
+    "brands": [
+     {
+      "name": "Curamoria Collection",
+      "id": null,
+      "segment": "boutique",
+      "tie": "Owns",
+      "date": "2020",
+      "detail": "Boutique brand launched by Grupo Posadas in 2020. Náay Tulum was its first hotel.",
+      "url": "https://forbes.com.mx/?p=783171",
+      "same": false,
+      "sites": [
+       {
+        "name": "Náay Tulum Curamoria Collection",
+        "place": "Tulum, Quintana Roo",
+        "country": "Mexico",
+        "keys": 36,
+        "status": "open",
+        "year": 2020,
+        "url": "https://www.chicmagazine.com.mx/estilo-de-vida/diseNo/naay-tulum-hotel-grupo-posadas-reinventa-lujo",
+        "id": null
+       },
+       {
+        "name": "Ilo Rojo Curamoria Collection",
+        "place": "San Miguel de Allende, Guanajuato",
+        "country": "Mexico",
+        "keys": 30,
+        "status": "open",
+        "year": 2021,
+        "url": "https://forbes.com.mx/?p=783171",
+        "id": null
+       },
+       {
+        "name": "Huayacán Cuernavaca Curamoria Collection",
+        "place": "Cuernavaca, Morelos",
+        "country": "Mexico",
+        "keys": 40,
+        "status": "open",
+        "year": null,
+        "url": "https://cms.posadas.com/documents/3110971/6889964/Huayacan_Cuernavaca_Curamoria_Collection.pdf",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Grupo Xcaret",
+    "short": "Grupo Xcaret",
+    "id": "MX-040",
+    "kind": "hotel group",
+    "hq": "Mexico",
+    "url": "https://forbes.com.mx/?p=1024654",
+    "brands": [
+     {
+      "name": "Hoteles Xcaret",
+      "id": null,
+      "segment": "eco",
+      "tie": "Owns",
+      "date": "2022-09",
+      "detail": "Grupo Xcaret, the Riviera Maya park operator, owns and runs its own hotels: 1,863 suites in three hotels in September 2022. La Casa de la Playa cost US$80 million.",
+      "url": "https://forbes.com.mx/?p=1024654",
+      "same": false,
+      "sites": [
+       {
+        "name": "La Casa de la Playa",
+        "place": "Riviera Maya, Quintana Roo",
+        "country": "Mexico",
+        "keys": 63,
+        "status": "open",
+        "year": 2021,
+        "url": "https://forbes.com.mx/?p=906330",
+        "id": null
+       },
+       {
+        "name": "Hotel Xcaret Arte",
+        "place": "Riviera Maya, Quintana Roo",
+        "country": "Mexico",
+        "keys": 900,
+        "status": "open",
+        "year": null,
+        "url": "https://forbes.com.mx/?p=1024654",
+        "id": null
+       },
+       {
+        "name": "Hotel Xcaret México",
+        "place": "Playa del Carmen, Quintana Roo",
+        "country": "Mexico",
+        "keys": 1800,
+        "status": "open",
+        "year": 2025,
+        "url": "https://www.revistaequipar.com/sector/hotel-xcaret-mexico-evoluciona",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Awasi Group",
+    "short": "Awasi Group",
+    "id": "CL-001",
+    "kind": "hotel group",
+    "hq": null,
+    "url": "https://awasi.com/our-story/",
+    "brands": [
+     {
+      "name": "Awasi",
+      "id": "CL-001",
+      "segment": "eco",
+      "tie": "Owns",
+      "date": "2007",
+      "detail": "Villa-based lodge group; Awasi Atacama opened 2007. In 2025 it added two operating hotels it renamed: Ponta dos Ganchos in Brazil and Cavas Wine Lodge in Argentina, for five lodges.",
+      "url": "https://awasi.com/our-story/",
+      "same": true,
+      "sites": [
+       {
+        "name": "Awasi Santa Catarina",
+        "place": "Governador Celso Ramos, Santa Catarina",
+        "country": "Brazil",
+        "keys": 25,
+        "status": "open",
+        "year": 2025,
+        "url": "https://www.luxurytravelreport.com/hotels-resorts/articles/awasi-expands-portfolio-with-new-brazil-and-argentina-lodges",
+        "id": null
+       },
+       {
+        "name": "Awasi Mendoza",
+        "place": "Agrelo, Luján de Cuyo, Mendoza",
+        "country": "Argentina",
+        "keys": 17,
+        "status": "open",
+        "year": 2025,
+        "url": "https://www.luxurytravelreport.com/hotels-resorts/articles/awasi-expands-portfolio-with-new-brazil-and-argentina-lodges",
+        "id": null
+       },
+       {
+        "name": "Awasi Atacama",
+        "place": "San Pedro de Atacama, Antofagasta",
+        "country": "Chile",
+        "keys": null,
+        "status": "open",
+        "year": 2007,
+        "url": "https://awasi.com/our-story/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Grupo Habita",
+    "short": "Grupo Habita",
+    "id": "MX-030",
+    "kind": "hotel group",
+    "hq": "Mexico",
+    "url": "https://yucatanmagazine.com/the-magic-formula-that-made-grupo-habita-mexicos-top-hotelier-of-2026/",
+    "brands": [
+     {
+      "name": "Grupo Habita hotels",
+      "id": "MX-030",
+      "segment": "boutique",
+      "tie": "Owns",
+      "date": "2026",
+      "detail": "Design hotel group founded by Carlos Couturier with Jaime, Moisés and Rafael Micha; 17 hotels in Mexico and the US as of 2026. Its hotels are Design Hotels members, booked through Marriott Bonvoy (see Marriott).",
+      "url": "https://yucatanmagazine.com/the-magic-formula-that-made-grupo-habita-mexicos-top-hotelier-of-2026/",
+      "same": true,
+      "sites": [
+       {
+        "name": "Hotel Sevilla",
+        "place": "Mérida, Yucatán",
+        "country": "Mexico",
+        "keys": 21,
+        "status": "open",
+        "year": 2025,
+        "url": "https://yucatanmagazine.com/the-magic-formula-that-made-grupo-habita-mexicos-top-hotelier-of-2026/",
+        "id": null
+       },
+       {
+        "name": "Hôtel Americano",
+        "place": "Chelsea, New York City",
+        "country": "United States",
+        "keys": 56,
+        "status": "open",
+        "year": 2011,
+        "url": "https://yucatanmagazine.com/the-magic-formula-that-made-grupo-habita-mexicos-top-hotelier-of-2026/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Inkaterra (Koechlin family)",
+    "short": "Inkaterra",
+    "id": "PE-003",
+    "kind": "hotel group",
+    "hq": "Peru",
+    "url": "https://www.inkaterra.com/our-team/",
+    "brands": [
+     {
+      "name": "Inkaterra",
+      "id": "PE-003",
+      "segment": "eco",
+      "tie": "Owns",
+      "date": "1975",
+      "detail": "Peruvian eco-hotel group founded by José Koechlin in 1975. IDB Invest approved a US$12 million senior secured loan in November 2024 (signed December 2024) to build Cabo Blanco and Machu Picchu and add Amazon rooms.",
+      "url": "https://idbinvest.org/en/projects/inkaterra-hotels-scaling-sustainable-tourism-peru",
+      "same": true,
+      "sites": [
+       {
+        "name": "Inkaterra Cabo Blanco",
+        "place": "Cabo Blanco, Talara, Piura",
+        "country": "Peru",
+        "keys": 20,
+        "status": "pipeline",
+        "year": 2026,
+        "url": "https://www.turiweb.pe/inkaterra-inauguraria-su-nuevo-hotel-en-cabo-blanco-este-ano/",
+        "id": null
+       },
+       {
+        "name": "Inkaterra Machu Picchu Forest",
+        "place": "Machu Picchu Pueblo, Cusco",
+        "country": "Peru",
+        "keys": null,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://www.turiweb.pe/inkaterra-confirma-la-construccion-de-su-nuevo-hotel-machu-picchu-forest/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Minor Hotels (Minor International)",
+    "short": "Minor Hotels",
+    "id": null,
+    "kind": "hotel group",
+    "hq": null,
+    "url": "https://hotelbusiness.com/minor-hotels-to-debut-anantara-in-the-caribbean/",
+    "brands": [
+     {
+      "name": "Anantara",
+      "id": null,
+      "segment": "wellness",
+      "tie": "Owns",
+      "date": "2026-05",
+      "detail": "Minor's first Anantara in the Americas, announced May 2026: a resort with 78 branded residences on North Caicos, opening 2029. Owners include Octans and local developer Rob Ayer.",
+      "url": "https://hotelbusiness.com/minor-hotels-to-debut-anantara-in-the-caribbean/",
+      "same": false,
+      "sites": [
+       {
+        "name": "Anantara Turks and Caicos Resort & Residences",
+        "place": "Sandy Point, North Caicos",
+        "country": "Turks and Caicos Islands",
+        "keys": null,
+        "status": "pipeline",
+        "year": 2029,
+        "url": "https://hotelbusiness.com/minor-hotels-to-debut-anantara-in-the-caribbean/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "KSL Capital Partners",
+    "short": "KSL Capital",
+    "id": "US-088",
+    "kind": "capital owner",
+    "hq": null,
+    "url": "https://www.kslcapital.com/news/under-canvas-enters-next-phase-of-growth-with-investment-by-ksl-capital",
+    "brands": [
+     {
+      "name": "Under Canvas",
+      "id": "US-182",
+      "segment": "glamping",
+      "tie": "Invests in",
+      "date": "2018-12",
+      "detail": "A KSL affiliate made a 'substantial investment' in Under Canvas in December 2018, when it had eight camps; terms not disclosed. By June 2026 it ran 17 locations across three brands. KSL earlier owned Miraval, sold to Hyatt in 2017.",
+      "url": "https://www.kslcapital.com/news/under-canvas-enters-next-phase-of-growth-with-investment-by-ksl-capital",
+      "same": false,
+      "sites": [
+       {
+        "name": "Under Canvas Yosemite",
+        "place": "Near Yosemite National Park, California",
+        "country": "United States",
+        "keys": 71,
+        "status": "open",
+        "year": 2026,
+        "url": "https://www.hotelmanagement.net/openings/under-canvas-opens-first-california-camp-near-yosemite-national-park",
+        "id": "US-182"
+       },
+       {
+        "name": "Under Canvas White Mountains",
+        "place": "Western White Mountains, New Hampshire",
+        "country": "United States",
+        "keys": 45,
+        "status": "open",
+        "year": 2026,
+        "url": "https://www.undercanvas.com/press-releases/under-canvas-opens-white-mountains-camp-in-new-hampshire-expanding-luxury-outdoor-hospitality-in-new-england/",
+        "id": "US-182"
+       },
+       {
+        "name": "Under Canvas Santa Fe",
+        "place": "Santa Fe, New Mexico",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.undercanvas.com/about/",
+        "id": "US-182"
+       },
+       {
+        "name": "Under Canvas Grand Canyon",
+        "place": "Grand Canyon, Arizona",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.undercanvas.com/about/",
+        "id": "US-182"
+       },
+       {
+        "name": "Under Canvas Great Smoky Mountains",
+        "place": "Great Smoky Mountains, Tennessee",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.undercanvas.com/about/",
+        "id": "US-182"
+       },
+       {
+        "name": "ULUM Moab",
+        "place": "Moab, Utah",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.undercanvas.com/about/",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Beckons (Baillie Lodges and Tierra Hotels)",
+      "id": "CL-002",
+      "segment": "eco",
+      "tie": "Invests in",
+      "date": "2022-08",
+      "detail": "KSL-backed Baillie Lodges bought a majority of Chile's Tierra Hotels in August 2022. In March 2026 the two were merged under a new brand, Beckons: nine lodges in Australia, New Zealand, Chile and Canada.",
+      "url": "https://www.kslcapital.com/news/baillie-lodges-expands-to-south-america-with-acquisition-of-chiles-tierra-hotels",
+      "same": false,
+      "sites": [
+       {
+        "name": "Tierra Patagonia",
+        "place": "Lake Sarmiento, Torres del Paine, Magallanes",
+        "country": "Chile",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.kslcapital.com/news/baillie-lodges-expands-to-south-america-with-acquisition-of-chiles-tierra-hotels",
+        "id": null
+       },
+       {
+        "name": "Tierra Atacama",
+        "place": "San Pedro de Atacama, Antofagasta",
+        "country": "Chile",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.kslcapital.com/news/baillie-lodges-expands-to-south-america-with-acquisition-of-chiles-tierra-hotels",
+        "id": null
+       },
+       {
+        "name": "Clayoquot Wilderness Lodge",
+        "place": "Clayoquot Sound, British Columbia",
+        "country": "Canada",
+        "keys": 25,
+        "status": "open",
+        "year": null,
+        "url": "https://clayoquotwildernesslodge.com/",
+        "id": "CA-006"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "The Friedkin Group",
+    "short": "The Friedkin Group",
+    "id": "US-165",
+    "kind": "capital owner",
+    "hq": "Houston, US",
+    "url": "https://auberge.com/press/the-stockman-debut/",
+    "brands": [
+     {
+      "name": "Auberge Resorts Collection",
+      "id": "US-015",
+      "segment": "boutique",
+      "tie": "Owns",
+      "date": "2026-03",
+      "detail": "Dan Friedkin is chairman of Auberge Collection, per Auberge's March 2026 release on The Stockman. Its site lists 6 resorts in Mexico, the Caribbean and Central America.",
+      "url": "https://auberge.com/press/the-stockman-debut/",
+      "same": false,
+      "sites": [
+       {
+        "name": "Etéreo, Auberge Resorts Collection",
+        "place": "Kanai, Riviera Maya, Quintana Roo",
+        "country": "Mexico",
+        "keys": 75,
+        "status": "open",
+        "year": null,
+        "url": "https://auberge.com/etereo/press/travel-leisure-a-brand-new-auberge-resort-is-opening-in-mexicos-riviera-maya-and-every-room-has-a-waterfront-view/",
+        "id": null
+       },
+       {
+        "name": "Hacienda AltaGracia",
+        "place": "Pérez Zeledón",
+        "country": "Costa Rica",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://auberge.com/about-us/",
+        "id": null
+       },
+       {
+        "name": "Susurros del Corazón",
+        "place": "Punta de Mita, Nayarit",
+        "country": "Mexico",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://auberge.com/about-us/",
+        "id": null
+       },
+       {
+        "name": "Chileno Bay Resort & Residences",
+        "place": "Los Cabos, Baja California Sur",
+        "country": "Mexico",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://auberge.com/about-us/",
+        "id": null
+       },
+       {
+        "name": "Esperanza",
+        "place": "Los Cabos, Baja California Sur",
+        "country": "Mexico",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://auberge.com/about-us/",
+        "id": null
+       },
+       {
+        "name": "Commodore Perry Estate",
+        "place": "Austin, Texas",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://auberge.com/about-us/",
+        "id": null
+       },
+       {
+        "name": "Sleeping Indian Lodge",
+        "place": "Ridgway, Colorado",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://auberge.com/about-us/",
+        "id": null
+       },
+       {
+        "name": "The Stockman, Auberge Collection",
+        "place": "Steamboat Springs, Colorado",
+        "country": "United States",
+        "keys": 59,
+        "status": "pipeline",
+        "year": 2030,
+        "url": "https://auberge.com/press/the-stockman-debut/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Whitman Peterson",
+    "short": "Whitman Peterson",
+    "id": "US-192",
+    "kind": "capital owner",
+    "hq": null,
+    "url": "https://www.hospitalitynet.org/news/4091842.html",
+    "brands": [
+     {
+      "name": "AutoCamp",
+      "id": "US-016",
+      "segment": "glamping",
+      "tie": "Invests in",
+      "date": "2019-02",
+      "detail": "Whitman Peterson led a $115 million dedicated capital commitment in early 2019 to buy and redevelop sites for AutoCamp, enough to develop over $500 million in projects. AutoCamp founded 2013; bookable on Hilton since 2024.",
+      "url": "https://www.hospitalitynet.org/news/4091842.html",
+      "same": false,
+      "sites": [
+       {
+        "name": "AutoCamp Yosemite",
+        "place": "Midpines, California",
+        "country": "United States",
+        "keys": 105,
+        "status": "open",
+        "year": 2019,
+        "url": "https://www.hospitalitynet.org/news/4091842.html",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Sequoia",
+        "place": "Three Rivers area, California",
+        "country": "United States",
+        "keys": 85,
+        "status": "open",
+        "year": 2025,
+        "url": "https://www.hoteldive.com/news/autocamp-opens-boutique-property-sequoia-national-park/742012/",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Hill Country",
+        "place": "Hill Country, Texas",
+        "country": "United States",
+        "keys": null,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://autocamp.com/",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Joshua Tree",
+        "place": "Joshua Tree, California",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://autocamp.com/",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Zion",
+        "place": "Zion, Utah",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://autocamp.com/",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Cape Cod",
+        "place": "Cape Cod, Massachusetts",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://autocamp.com/",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Asheville",
+        "place": "Asheville, North Carolina",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://autocamp.com/",
+        "id": null
+       },
+       {
+        "name": "AutoCamp Catskills",
+        "place": "Catskills, New York",
+        "country": "United States",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://autocamp.com/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Grupo Córpora (Ibáñez family)",
+    "short": "Grupo Córpora",
+    "id": null,
+    "kind": "capital owner",
+    "hq": "Chile",
+    "url": "https://www.df.cl/empresas/infraestructura-inmobiliaria/explora-potencia-expansion-internacional-con-hotel-de-lujo-en-santa",
+    "brands": [
+     {
+      "name": "Explora",
+      "id": "CL-007",
+      "segment": "eco",
+      "tie": "Owns",
+      "date": "2018-05",
+      "detail": "Explora is a company of Grupo Córpora, owned by the Ibáñez family (Diario Financiero, May 2018). It runs all-inclusive lodges in Chile, Argentina, Peru and Bolivia; architect José Cruz Ovalle designs them in wood.",
+      "url": "https://www.df.cl/empresas/infraestructura-inmobiliaria/explora-potencia-expansion-internacional-con-hotel-de-lujo-en-santa",
+      "same": false,
+      "sites": [
+       {
+        "name": "Explora El Calafate",
+        "place": "El Calafate, Santa Cruz",
+        "country": "Argentina",
+        "keys": 20,
+        "status": "open",
+        "year": 2025,
+        "url": "https://www.explora.com/2025/11/20/en/patagonia-hotels-lodges-el-calafate-torres-del-paine/",
+        "id": null
+       },
+       {
+        "name": "Explora Torres del Paine Conservation Reserve",
+        "place": "Torres del Paine, Magallanes",
+        "country": "Chile",
+        "keys": 10,
+        "status": "open",
+        "year": 2025,
+        "url": "https://www.explora.com/2025/11/20/en/patagonia-hotels-lodges-el-calafate-torres-del-paine/",
+        "id": null
+       },
+       {
+        "name": "Explora El Chaltén",
+        "place": "El Chaltén, Santa Cruz",
+        "country": "Argentina",
+        "keys": 50,
+        "status": "open",
+        "year": null,
+        "url": "https://www.df.cl/empresas/infraestructura-inmobiliaria/explora-potencia-expansion-internacional-con-hotel-de-lujo-en-santa",
+        "id": null
+       },
+       {
+        "name": "Explora Valle Sagrado",
+        "place": "Sacred Valley, Cusco",
+        "country": "Peru",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.explora.com/explora-hotels/",
+        "id": null
+       },
+       {
+        "name": "Explora Patagonia National Park",
+        "place": "Patagonia National Park, Aysén",
+        "country": "Chile",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.explora.com/explora-hotels/",
+        "id": null
+       },
+       {
+        "name": "Explora Atacama",
+        "place": "San Pedro de Atacama, Antofagasta",
+        "country": "Chile",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.explora.com/explora-hotels/",
+        "id": null
+       },
+       {
+        "name": "Explora Rapa Nui",
+        "place": "Easter Island, Valparaíso",
+        "country": "Chile",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://www.explora.com/explora-hotels/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "RLH Properties",
+    "short": "RLH Properties",
+    "id": "MX-067",
+    "kind": "capital owner",
+    "hq": "Mexico City, Mexico",
+    "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+    "brands": [
+     {
+      "name": "Rosewood Hotels & Resorts",
+      "id": null,
+      "segment": "wellness",
+      "tie": "Owns sites under",
+      "date": "2025-05",
+      "detail": "RLH (BMV: RLH A) owns the hotel real estate; Rosewood Hotel Group, privately owned by Chow Tai Fook Enterprises, manages. RLH built Rosewood Mandarina, which opened in 2025.",
+      "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+      "same": false,
+      "sites": [
+       {
+        "name": "Rosewood Mayakoba",
+        "place": "Mayakoba, Playa del Carmen, Quintana Roo",
+        "country": "Mexico",
+        "keys": 129,
+        "status": "open",
+        "year": null,
+        "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+        "id": null
+       },
+       {
+        "name": "Rosewood Mandarina",
+        "place": "Riviera Nayarit, Nayarit",
+        "country": "Mexico",
+        "keys": 134,
+        "status": "open",
+        "year": 2025,
+        "url": "https://www.aap.com.au/aapreleases/cision20251219ae51536/",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "One&Only",
+      "id": null,
+      "segment": "wellness",
+      "tie": "Owns sites under",
+      "date": "2025-05",
+      "detail": "RLH owns One&Only Mandarina and sells One&Only-branded homes at Mandarina.",
+      "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+      "same": false,
+      "sites": [
+       {
+        "name": "One&Only Mandarina",
+        "place": "Riviera Nayarit, Nayarit",
+        "country": "Mexico",
+        "keys": 105,
+        "status": "open",
+        "year": null,
+        "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Banyan Tree",
+      "id": null,
+      "segment": "wellness",
+      "tie": "Owns sites under",
+      "date": "2025-05",
+      "detail": "RLH owns Banyan Tree Mayakoba.",
+      "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+      "same": false,
+      "sites": [
+       {
+        "name": "Banyan Tree Mayakoba",
+        "place": "Mayakoba, Playa del Carmen, Quintana Roo",
+        "country": "Mexico",
+        "keys": 160,
+        "status": "open",
+        "year": null,
+        "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Andaz (Hyatt)",
+      "id": null,
+      "segment": "lifestyle",
+      "tie": "Owns sites under",
+      "date": "2025-05",
+      "detail": "RLH owns Andaz Mayakoba.",
+      "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+      "same": false,
+      "sites": [
+       {
+        "name": "Andaz Mayakoba",
+        "place": "Mayakoba, Playa del Carmen, Quintana Roo",
+        "country": "Mexico",
+        "keys": 214,
+        "status": "open",
+        "year": null,
+        "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "Park Hyatt",
+      "id": null,
+      "segment": "lifestyle",
+      "tie": "Owns sites under",
+      "date": "2025-05",
+      "detail": "RLH bought the Park Hyatt Los Cabos project; under construction as of the 1Q25 report.",
+      "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+      "same": false,
+      "sites": [
+       {
+        "name": "Park Hyatt Los Cabos",
+        "place": "Los Cabos, Baja California Sur",
+        "country": "Mexico",
+        "keys": 163,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://rlhproperties.com/wp-content/uploads/2025/05/Press-Release-1Q-2025-ESP.pdf",
+        "id": null
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "JHSF Participações",
+    "short": "JHSF",
+    "id": "BR-016",
+    "kind": "capital owner",
+    "hq": "Brazil",
+    "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+    "brands": [
+     {
+      "name": "Fasano",
+      "id": "BR-009",
+      "segment": "boutique",
+      "tie": "Owns",
+      "date": "2024-08",
+      "detail": "JHSF, the listed Brazilian developer, owns the Fasano hotel brand: eight hotels in Brazil plus Punta del Este and New York in August 2024. In April 2026 it agreed to buy the Enjoy Punta del Este complex to add a Fasano hotel, casino and homes.",
+      "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+      "same": false,
+      "sites": [
+       {
+        "name": "Fasano Trancoso",
+        "place": "Trancoso, Bahia",
+        "country": "Brazil",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+        "id": null
+       },
+       {
+        "name": "Fasano Angra dos Reis",
+        "place": "Angra dos Reis, Rio de Janeiro",
+        "country": "Brazil",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+        "id": null
+       },
+       {
+        "name": "Fasano Boa Vista",
+        "place": "Porto Feliz, São Paulo",
+        "country": "Brazil",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+        "id": null
+       },
+       {
+        "name": "Hotel Fasano Punta del Este",
+        "place": "Punta del Este, Maldonado",
+        "country": "Uruguay",
+        "keys": null,
+        "status": "open",
+        "year": null,
+        "url": "https://investnews.com.br/negocios/jhsf-compra-hotel-em-punta-del-este-e-amplia-expansao-global/",
+        "id": null
+       },
+       {
+        "name": "Fasano at Enjoy Punta del Este (conversion)",
+        "place": "Punta del Este, Maldonado",
+        "country": "Uruguay",
+        "keys": null,
+        "status": "pipeline",
+        "year": null,
+        "url": "https://investnews.com.br/negocios/jhsf-compra-hotel-em-punta-del-este-e-amplia-expansao-global/",
+        "id": null
+       }
+      ]
+     },
+     {
+      "name": "The Surf Lodge",
+      "id": null,
+      "segment": "lifestyle",
+      "tie": "Owns",
+      "date": "2024-08",
+      "detail": "New brand created by JHSF and operated by Fasano, due at Boa Vista Village in the Fazenda Boa Vista complex.",
+      "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+      "same": false,
+      "sites": [
+       {
+        "name": "The Surf Lodge Boa Vista Village",
+        "place": "Porto Feliz, São Paulo",
+        "country": "Brazil",
+        "keys": null,
+        "status": "pipeline",
+        "year": 2024,
+        "url": "https://braziljournal.com/fasano-faz-check-in-na-sardenha-o-13o-hotel-da-rede/",
+        "id": null
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "pyr_counts": {
+   "parents": 22,
+   "brands": 36,
+   "sites": 131,
+   "on_deck": 27
+  }
+ },
+ "ties": [
+  {
+   "a": "US-165",
+   "b": "US-015",
+   "k": "owns",
+   "rel": "Owns Auberge Resorts Collection, 2026-03"
+  },
+  {
+   "a": "US-088",
+   "b": "US-182",
+   "k": "partner",
+   "rel": "Invests in Under Canvas, 2018-12"
+  },
+  {
+   "a": "US-088",
+   "b": "CL-002",
+   "k": "partner",
+   "rel": "Invests in Beckons (Baillie Lodges and Tierra Hotels), 2022-08"
+  },
+  {
+   "a": "US-192",
+   "b": "US-016",
+   "k": "partner",
+   "rel": "Invests in AutoCamp, 2019-02"
+  },
+  {
+   "a": "BR-016",
+   "b": "BR-009",
+   "k": "owns",
+   "rel": "Owns Fasano, 2024-08"
+  }
+ ],
  "targets": [
   {
    "entity_name": "BIG-Bjarke Ingels Group",
@@ -4505,18 +7292,25 @@
    "exec_named": true,
    "key_projects": [
     {
-     "name": "El Cosmico",
-     "detail": "3D-printed hotel and Sunday Homes on a 60-plus acre site, Marfa, Texas, under construction, completion expected 2026",
-     "signal_type": "pipeline",
-     "fit_signal": "",
-     "url": "https://www.iconbuild.com/newsroom/el-cosmico-and-icon-announce-groundbreaking-of-worlds-first-3d-printed-hotel-and-development-in-marfa-texas"
-    },
-    {
-     "name": "Wolf Ranch 3D-printed homes",
-     "detail": "100 homes of 1,500 to 2,100 sq ft, Georgetown, Texas, completed 2023 to 2024, not hospitality",
+     "name": "Wolf Ranch",
+     "detail": "100 printed homes with Lennar, Georgetown, Texas. Finished 2025, per ICON.",
      "signal_type": "built",
      "fit_signal": "",
-     "url": "https://www.archdaily.com/1004384/big-icon-and-lennar-complete-the-first-3d-printed-model-house-at-the-wolf-ranch-community-in-austin-texas"
+     "url": "https://www.iconbuild.com/projects/wolf-ranch"
+    },
+    {
+     "name": "El Cosmico",
+     "detail": "Printed hotel and Sunday Homes, Marfa, Texas. Ground broke September 2024. ICON's project page: finished N/A.",
+     "signal_type": "pipeline",
+     "fit_signal": "",
+     "url": "https://www.iconbuild.com/projects/el-cosmico"
+    },
+    {
+     "name": "Performance Stage",
+     "detail": "Printed performance pavilion, Austin. Finished 2023, per ICON.",
+     "signal_type": "built",
+     "fit_signal": "",
+     "url": "https://www.iconbuild.com/projects/performance-stage"
     }
    ],
    "sources": [
