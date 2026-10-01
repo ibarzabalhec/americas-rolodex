@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-uqVFT971KPl23X8i0o+9mK+6eABsOmCO8sF5Jo7vlzw=' 'sha256-EZdky40ivy8v5D6TkLU0mMyPW+cxBkZeF83fVQZ2ktA=' 'sha256-AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=' 'sha256-KoCO4RU878iN6rCaQ42NFdZxGfwv+O1k1IT0KNDiERo='; style-src 'unsafe-inline'; img-src data: blob:; font-src data:; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-uqVFT971KPl23X8i0o+9mK+6eABsOmCO8sF5Jo7vlzw=' 'sha256-EZdky40ivy8v5D6TkLU0mMyPW+cxBkZeF83fVQZ2ktA=' 'sha256-AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=' 'sha256-Gd2gTBASf9UWPFw2NEWXY00h+mhnfq9ysqTgQ/hn0KA='; style-src 'unsafe-inline'; img-src data: blob:; font-src data:; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Hotel groups, operators, developers, architects and owners building hospitality from Canada to Argentina, screened against three counts for a construction printer, with named executives, sources, the market in figures, places and the printers in the field. By Héctor Ibarzábal.">
 <meta name="build" content="3">
@@ -152,6 +152,19 @@ nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:60;background:var(-
 .thm:hover{border-color:var(--ink)}
 @media print{.thm{display:none}}
 @media(max-width:560px){.mark span{display:none}}
+.hub{height:34px;display:inline-flex;align-items:center;gap:8px;padding:0 11px;
+  border:1px solid var(--rule2);border-radius:2px;color:var(--ink);text-decoration:none;
+  font:600 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.hub:hover{border-color:var(--ink)}
+.hub:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.hub svg{flex:none}
+.hub{width:34px;padding:0;justify-content:center}.hub span{display:none}
+@media(min-width:1061px) and (max-width:1279px){.mark span{display:none}.navin,.navtools{gap:10px}#q{width:200px}.navtools .seg button{padding:9px 8px}}
+@media(max-width:380px){.navin{gap:8px}.navsp{display:none}.hub{margin-left:auto}}
+@media(max-width:760px){.hub{width:40px;height:40px}}
+@media print{.hub{display:none}}
+.end .home{color:inherit;text-decoration:underline;text-underline-offset:3px;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.end .home svg{width:13px;height:13px;flex:none}
 @media(max-width:1060px){
   .navin{height:auto;padding-block:10px;gap:10px;row-gap:10px}
   .navtools{order:5;flex:1 0 100%;gap:10px}
@@ -1438,6 +1451,7 @@ button.psite:hover,a.psite:hover{border-color:var(--ink)}
     <input id="q" type="search" placeholder="Search firm, person, project" aria-label="Search firm, person, project">
     <div class="seg views" role="group" aria-label="View"><span class="vbead" aria-hidden="true"></span><button id="vList" aria-pressed="true">List</button><button id="vMatrix" aria-pressed="false">Screen</button><button id="vScroll" aria-pressed="false">Cover</button><button id="vPlaces" aria-pressed="false">Places</button><button id="vOutdoors" aria-pressed="false">Outdoors</button><button id="vField" aria-pressed="false">Field</button><button id="vMarket" aria-pressed="false">Market</button></div>
   </div>
+  <a class="hub" id="hub" href="https://ibarzabalhec.github.io/" aria-label="All work samples" title="All work samples"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><rect x="1.75" y="1.75" width="5" height="5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="9.25" y="1.75" width="5" height="5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="1.75" y="9.25" width="5" height="5" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="9.25" y="9.25" width="5" height="5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span>All work samples</span></a>
   <button class="thm" id="thm" type="button" aria-label="Use the dark theme" title="Theme"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.75a6.25 6.25 0 0 1 0 12.5z" fill="currentColor"/></svg></button>
   <button class="cbtn" id="openCall">Saved<b id="clN">0</b></button>
 </div></nav>
@@ -2100,7 +2114,8 @@ function toTool(){
 }
 document.getElementById('limits').innerHTML=D.limits.map(function(l){
   return '<div class="lim"><b>'+esc(l[0])+'</b><span>'+esc(l[1])+'</span></div>';}).join('');
-document.getElementById('foot').innerHTML=esc(D.byline);
+document.getElementById('foot').innerHTML='Sample, not an ICON document. '+esc(D.byline)+' \u00b7 <a class="home" href="https://ibarzabalhec.github.io/">'+
+  document.querySelector('#hub svg').outerHTML+'All work samples</a>';
 (function(){var C=(D.competitors||[])[0]; if(!C) return;
   document.getElementById('comp').innerHTML='<h2>'+esc(C.name)+'</h2><p class="cl2">'+esc(C.line)+'</p><dl>'+
     C.facts.slice(0,3).map(function(f){return '<dt>'+esc(f[0])+'</dt><dd>'+esc(f[1])+'</dd>';}).join('')+
