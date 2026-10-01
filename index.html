@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-uqVFT971KPl23X8i0o+9mK+6eABsOmCO8sF5Jo7vlzw=' 'sha256-EZdky40ivy8v5D6TkLU0mMyPW+cxBkZeF83fVQZ2ktA=' 'sha256-AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=' 'sha256-Gd2gTBASf9UWPFw2NEWXY00h+mhnfq9ysqTgQ/hn0KA='; style-src 'unsafe-inline'; img-src data: blob:; font-src data:; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-uqVFT971KPl23X8i0o+9mK+6eABsOmCO8sF5Jo7vlzw=' 'sha256-EZdky40ivy8v5D6TkLU0mMyPW+cxBkZeF83fVQZ2ktA=' 'sha256-AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=' 'sha256-r7JTBjUWfqhHylOlm0AzJ5ISAebJlUiZGeD2KEwJdtc='; style-src 'unsafe-inline'; img-src data: blob:; font-src data:; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Hotel groups, operators, developers, architects and owners building hospitality from Canada to Argentina, screened against three counts for a construction printer, with named executives, sources, the market in figures, places and the printers in the field. By Héctor Ibarzábal.">
 <meta name="build" content="3">
@@ -1491,7 +1491,6 @@ button.psite:hover,a.psite:hover{border-color:var(--ink)}
     <p class="mnote" id="mnote"></p>
     <section class="comp" id="comp"></section>
     <div class="limits" id="limits"></div>
-    <footer class="end" id="foot"></footer>
   </div>
   <div class="wrap" id="printRoster" aria-hidden="true">
   </div>
@@ -1559,6 +1558,8 @@ button.psite:hover,a.psite:hover{border-color:var(--ink)}
 </div>
 
 <div class="wrap" id="stageFirm"><div id="firmBody"></div></div>
+
+<div class="wrap"><footer class="end" id="foot"></footer></div>
 </main>
 
 <script>
@@ -2114,8 +2115,11 @@ function toTool(){
 }
 document.getElementById('limits').innerHTML=D.limits.map(function(l){
   return '<div class="lim"><b>'+esc(l[0])+'</b><span>'+esc(l[1])+'</span></div>';}).join('');
-document.getElementById('foot').innerHTML='Sample, not an ICON document. '+esc(D.byline)+' \u00b7 <a class="home" href="https://ibarzabalhec.github.io/">'+
-  document.querySelector('#hub svg').outerHTML+'All work samples</a>';
+function drawFoot(firm){
+  document.getElementById('foot').innerHTML=esc('Sample, not an ICON'+(firm?' or '+firm:'')+' document.')+' '+esc(D.byline)+
+    ' \u00b7 <a class="home" href="https://ibarzabalhec.github.io/">'+document.querySelector('#hub svg').outerHTML+'All work samples</a>';
+}
+drawFoot();
 (function(){var C=(D.competitors||[])[0]; if(!C) return;
   document.getElementById('comp').innerHTML='<h2>'+esc(C.name)+'</h2><p class="cl2">'+esc(C.line)+'</p><dl>'+
     C.facts.slice(0,3).map(function(f){return '<dt>'+esc(f[0])+'</dt><dd>'+esc(f[1])+'</dd>';}).join('')+
@@ -2499,6 +2503,8 @@ function goIndex(fromPop){
   else{var m=document.querySelector('.seg[aria-label=View] button[aria-pressed="true"]'); if(m) m.focus({preventScroll:true});}
 }
 function swap(){
+  var ft=view==='firm'&&viewing&&typeof byId!=='undefined'&&byId[viewing];
+  drawFoot(ft?ft.entity_name:'');
   document.getElementById('stageIndex').hidden=(view!=='index');
   document.getElementById('stageFirm').classList.toggle('on',view==='firm');
   window.scrollTo(0,0);
